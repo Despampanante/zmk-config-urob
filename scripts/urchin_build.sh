@@ -10,7 +10,7 @@ podman run --rm\
     --mount type=volume,source=zmk-zephyr-tools-3.5,target=/workspace/zmk/tools \
     -w /workspace/zmk/app zmkfirmware/zmk-dev-arm:3.5 \
     west build -s /workspace/zmk/app -d "build/nice_nano_v2_3.5_docker_left" -b nice_nano_v2 \
-    -- -DZMK_CONFIG="/workspace/zmk-config/config" -DSHIELD="settings_reset"
+    -- -DZMK_CONFIG="/workspace/zmk-config/config" -DSHIELD="urchin_left"
 
 mv /home/santiago/projects/zmk/app/build/nice_nano_v2_3.5_docker_left/zephyr/zmk.uf2 /home/santiago/projects/zmk-config-urob/results/urchin_left.u2f
 
