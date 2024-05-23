@@ -222,31 +222,18 @@ ZMK_BEHAVIOR(win_sleep, macro,
 
 ZMK_CONDITIONAL_LAYER(FN NUM, SYS)  // FN + NUM --> SYS
 
-//Dusk
+// AptV3
 ZMK_LAYER(base,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT      &kp B        &kp F         &kp D         &kp P         &kp Q           X_MT     &kp J         &kp SQT       &kp O         &kp U         &dot_morph      X_RT
+    X_LT     &kp W         &kp G         &kp D         &kp F         &kp B           X_MT     &kp Q         &kp L         &kp U         &kp O         &kp Y           X_RT
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LM     &hml LGUI N   &hml LCTRL S  &hml LSHFT T  &hml LALT C   &kp Y           X_MM     &kp M         &hmr LALT H   &hmr RSHFT A  &hmr LCTRL E  &hmr LGUI I     X_RM
+    X_LM     &hml LGUI R   &hml LCTRL S  &hml LSHFT T  &hml LALT H   &kp K           X_MM     &kp J         &hmr LALT N   &hmr RSHFT E  &hmr LCTRL A  &hmr LGUI I     X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB       &kp Z       &kp V         &kp K         &kp G         &kp W           X_MB     &kp X         &kp L         &qexcl        &dot_morph    &comma_morph    X_RB
+    X_LB     &kp X         &kp C         &kp M         &kp P         &kp V           X_MB     &kp Z         &kp SQT       &comma_morph  &dot_morph    &qexcl          X_RB
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-    X_LH                                               &lt NAV RET  &kp R            X_MH     &lt_spc FN 0  SMART_NUM                                                 X_RH
+    X_LH                                               &lt FN RET   &lt_spc NAV 0    X_MH     &smart_shft   SMART_NUM                                                 X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
 )
-
-// // AptV3
-// ZMK_LAYER(base,
-// //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-//     X_LT     &kp W         &kp G         &kp D         &kp F         &kp B           X_MT     &kp Q         &kp L         &kp U         &kp O         &kp Y           X_RT
-// //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-//     X_LM     &hml LGUI R   &hml LCTRL S  &hml LSHFT T  &hml LALT H   &kp K           X_MM     &kp J         &hmr LALT N   &hmr RSHFT E  &hmr LCTRL A  &hmr LGUI I     X_RM
-// //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-//     X_LB     &kp X         &kp C         &kp M         &kp P         &kp V           X_MB     &kp Z         &kp SQT       &comma_morph  &dot_morph    &qexcl          X_RB
-// //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-//     X_LH                                               &lt FN RET   &lt_spc NAV 0    X_MH     &smart_shft   SMART_NUM                                                 X_RH
-// //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
-// )
 
 
 ZMK_LAYER(nav,
