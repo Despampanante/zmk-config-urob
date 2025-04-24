@@ -26,6 +26,9 @@ manifest:
       url-base: https://github.com/urob
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    # kyek / duckyb
+    - name: duckyb
+      url-base: https://github.com/duckyb
 
   projects:
     - name: zmk
