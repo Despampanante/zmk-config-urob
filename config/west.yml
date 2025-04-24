@@ -33,6 +33,9 @@ manifest:
       import: app/west.yml
 
     # ZMK modules
+    - name: urchin-zmk-module
+      remote: duckyb
+      revision: main
     - name: zmk-adaptive-key
       path: modules/zmk/adaptive-key
     - name: zmk-auto-layer
